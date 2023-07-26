@@ -19,13 +19,16 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test.cpp" />
+    <ClInclude Include="MyObserver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyOberver.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{bd503458-c159-4d02-bad5-2781b10c8cfd}</ProjectGuid>
-    <RootNamespace>LearnCpp</RootNamespace>
+    <ProjectGuid>{4a1bdb4b-4cb8-4c3b-b6e8-a892b5c6935e}</ProjectGuid>
+    <RootNamespace>MyObserver</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
