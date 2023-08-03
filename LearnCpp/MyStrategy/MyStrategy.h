@@ -44,7 +44,7 @@ public:
 class Context
 {
 public:
-	Context();
+	Context():m_strategy(nullptr){};
 	Context(Strategy* strategy) :m_strategy(strategy) {}
 	~Context() { delete m_strategy; }
 	void operator = (Strategy* strategy)
